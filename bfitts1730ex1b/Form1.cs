@@ -16,5 +16,16 @@ namespace bfitts1730ex1b
         {
             InitializeComponent();
         }
+
+        private void BtnCalculate_Click(object sender, EventArgs e)
+        {
+            //txtTotal.Text = "10";
+            //txtTotal.ReadOnly = true;
+        }
+
+        private void BtnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

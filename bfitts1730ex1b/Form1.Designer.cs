@@ -113,6 +113,7 @@
             this.txtTotal.Size = new System.Drawing.Size(238, 20);
             this.txtTotal.TabIndex = 9;
             this.txtTotal.TabStop = false;
+            this.txtTotal.Text = "200";
             // 
             // btnCalculate
             // 
@@ -122,6 +123,7 @@
             this.btnCalculate.TabIndex = 2;
             this.btnCalculate.Text = "&Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.BtnCalculate_Click);
             // 
             // btnExit
             // 
@@ -131,6 +133,7 @@
             this.btnExit.TabIndex = 3;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
+            this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
             // 
             // Form1
             // 
