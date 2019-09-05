@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91CD3FDE-6A9D-40A7-A9FB-891098B2FF90}</ProjectGuid>
+    <ProjectGuid>{44BE3158-2E59-4234-A874-430ADD29C1FC}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>bfitts1730ex1b</RootNamespace>
-    <AssemblyName>bfitts1730ex1b</AssemblyName>
+    <RootNamespace>bfitts17301c1</RootNamespace>
+    <AssemblyName>bfitts17301c1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="form1.cs">
+    <Compile Include="fmFoodTruck.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="form1.Designer.cs">
-      <DependentUpon>form1.cs</DependentUpon>
+    <Compile Include="fmFoodTruck.Designer.cs">
+      <DependentUpon>fmFoodTruck.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="form1.resx">
-      <DependentUpon>form1.cs</DependentUpon>
+    <EmbeddedResource Include="fmFoodTruck.resx">
+      <DependentUpon>fmFoodTruck.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

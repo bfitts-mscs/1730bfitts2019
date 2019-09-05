@@ -1,6 +1,6 @@
 ﻿namespace bfitts1730ex1b
 {
-    partial class Form1
+    partial class form1
     {
         /// <summary>
         /// Required designer variable.

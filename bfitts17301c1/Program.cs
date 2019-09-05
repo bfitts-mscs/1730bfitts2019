@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace bfitts1730ex1b
+namespace bfitts17301c1
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace bfitts1730ex1b
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new form1());
+            Application.Run(new fmFoodTruck());
         }
     }
 }
