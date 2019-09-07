@@ -32,7 +32,7 @@ namespace bfitts17301c1
                 .06875m * Convert.ToDecimal(txtPretaxtotal.Text)
                 ).ToString("0.00");
             txtTotal.Text = (
-                Convert.ToDecimal(txtPretaxtotal.Text) - Convert.ToDecimal(txtTax.Text)
+                Convert.ToDecimal(txtPretaxtotal.Text) + Convert.ToDecimal(txtTax.Text)
                 ).ToString("0.00");
             btnClear.Focus();
         }
