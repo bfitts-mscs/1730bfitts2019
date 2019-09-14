@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1A83B814-330E-487D-A56E-23EAF429F9AB}</ProjectGuid>
+    <ProjectGuid>{14DF1C77-C002-434B-AEA3-8EE323A53724}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>bfitts1d1</RootNamespace>
-    <AssemblyName>bfitts1d1</AssemblyName>
+    <RootNamespace>bfitts17301f1</RootNamespace>
+    <AssemblyName>bfitts17301f1</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,16 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmCurrencyConverter.cs">
+    <Compile Include="FrmCurrency.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmCurrencyConverter.Designer.cs">
-      <DependentUpon>FrmCurrencyConverter.cs</DependentUpon>
+    <Compile Include="FrmCurrency.Designer.cs">
+      <DependentUpon>FrmCurrency.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmCurrencyConverter.resx">
-      <DependentUpon>FrmCurrencyConverter.cs</DependentUpon>
+    <EmbeddedResource Include="FrmCurrency.resx">
+      <DependentUpon>FrmCurrency.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -80,12 +80,15 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Country Flags\Albania-Flag-icon.png" />
-    <Content Include="Country Flags\Gibraltar-Flag-icon.png" />
-    <Content Include="Country Flags\Guam-Flag-icon.png" />
-    <Content Include="Country Flags\Saint-Barthelemy-icon.png" />
-    <Content Include="Country Flags\United-States-Flag-icon.png" />
-    <Content Include="Country Flags\Wales-icon.png" />
+    <Content Include="Flag Images\Albania-Flag-icon-dim.png" />
+    <Content Include="Flag Images\Albania-Flag-icon.png" />
+    <Content Include="Flag Images\Bangladesh-Flag-icon-dim.png" />
+    <Content Include="Flag Images\Bangladesh-Flag-icon.png" />
+    <Content Include="Flag Images\Gibraltar-Flag-icon-dim.png" />
+    <Content Include="Flag Images\Gibraltar-Flag-icon.png" />
+    <Content Include="Flag Images\Swedish-icon-dim.png" />
+    <Content Include="Flag Images\Swedish-icon.png" />
+    <Content Include="Flag Images\United-States-Flag-icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
