@@ -156,7 +156,7 @@
             this.btnAlbania.Location = new System.Drawing.Point(12, 12);
             this.btnAlbania.Name = "btnAlbania";
             this.btnAlbania.Size = new System.Drawing.Size(123, 98);
-            this.btnAlbania.TabIndex = 0;
+            this.btnAlbania.TabIndex = 5;
             this.btnAlbania.Text = "Ablanian Lek";
             this.btnAlbania.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAlbania.UseVisualStyleBackColor = true;
@@ -168,7 +168,7 @@
             this.btnBangladesh.Location = new System.Drawing.Point(141, 12);
             this.btnBangladesh.Name = "btnBangladesh";
             this.btnBangladesh.Size = new System.Drawing.Size(123, 98);
-            this.btnBangladesh.TabIndex = 1;
+            this.btnBangladesh.TabIndex = 6;
             this.btnBangladesh.Text = "Bangladesh Taka";
             this.btnBangladesh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnBangladesh.UseVisualStyleBackColor = true;
@@ -180,7 +180,7 @@
             this.btnGibraltar.Location = new System.Drawing.Point(270, 12);
             this.btnGibraltar.Name = "btnGibraltar";
             this.btnGibraltar.Size = new System.Drawing.Size(123, 98);
-            this.btnGibraltar.TabIndex = 2;
+            this.btnGibraltar.TabIndex = 7;
             this.btnGibraltar.Text = "Gibraltar Pound";
             this.btnGibraltar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnGibraltar.UseVisualStyleBackColor = true;
@@ -192,7 +192,7 @@
             this.btnSwedish.Location = new System.Drawing.Point(399, 12);
             this.btnSwedish.Name = "btnSwedish";
             this.btnSwedish.Size = new System.Drawing.Size(123, 98);
-            this.btnSwedish.TabIndex = 3;
+            this.btnSwedish.TabIndex = 8;
             this.btnSwedish.Text = "Swedish Krona";
             this.btnSwedish.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSwedish.UseVisualStyleBackColor = true;
@@ -204,7 +204,7 @@
             this.lblCurrency.Location = new System.Drawing.Point(21, 154);
             this.lblCurrency.Name = "lblCurrency";
             this.lblCurrency.Size = new System.Drawing.Size(100, 20);
-            this.lblCurrency.TabIndex = 12;
+            this.lblCurrency.TabIndex = 0;
             this.lblCurrency.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lblEquation
@@ -221,7 +221,7 @@
             this.label1.Location = new System.Drawing.Point(21, 183);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(33, 13);
-            this.label1.TabIndex = 14;
+            this.label1.TabIndex = 2;
             this.label1.Text = "Rate:";
             // 
             // label2
@@ -230,7 +230,7 @@
             this.label2.Location = new System.Drawing.Point(21, 208);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(28, 13);
-            this.label2.TabIndex = 15;
+            this.label2.TabIndex = 11;
             this.label2.Text = "$US";
             // 
             // txtCurrency
@@ -238,7 +238,7 @@
             this.txtCurrency.Location = new System.Drawing.Point(127, 154);
             this.txtCurrency.Name = "txtCurrency";
             this.txtCurrency.Size = new System.Drawing.Size(100, 20);
-            this.txtCurrency.TabIndex = 4;
+            this.txtCurrency.TabIndex = 1;
             this.txtCurrency.Text = "0.00";
             this.txtCurrency.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtCurrency.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtCurrency_Enter);
@@ -250,7 +250,7 @@
             this.txtRate.Location = new System.Drawing.Point(127, 180);
             this.txtRate.Name = "txtRate";
             this.txtRate.Size = new System.Drawing.Size(100, 20);
-            this.txtRate.TabIndex = 5;
+            this.txtRate.TabIndex = 3;
             this.txtRate.Text = "0.00";
             this.txtRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtRate.TextChanged += new System.EventHandler(this.calcUSD);
@@ -261,7 +261,7 @@
             this.txtTotalUSD.Name = "txtTotalUSD";
             this.txtTotalUSD.ReadOnly = true;
             this.txtTotalUSD.Size = new System.Drawing.Size(100, 20);
-            this.txtTotalUSD.TabIndex = 12;
+            this.txtTotalUSD.TabIndex = 14;
             this.txtTotalUSD.TabStop = false;
             this.txtTotalUSD.Text = "0.00";
             this.txtTotalUSD.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -272,7 +272,7 @@
             this.txtUSDollars.Name = "txtUSDollars";
             this.txtUSDollars.ReadOnly = true;
             this.txtUSDollars.Size = new System.Drawing.Size(100, 20);
-            this.txtUSDollars.TabIndex = 6;
+            this.txtUSDollars.TabIndex = 12;
             this.txtUSDollars.TabStop = false;
             this.txtUSDollars.Text = "0.00";
             this.txtUSDollars.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -283,7 +283,7 @@
             this.btnAdd.Location = new System.Drawing.Point(233, 204);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(34, 27);
-            this.btnAdd.TabIndex = 6;
+            this.btnAdd.TabIndex = 4;
             this.btnAdd.Text = "+";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.Button1_Click);
@@ -293,7 +293,7 @@
             this.btnReset.Location = new System.Drawing.Point(127, 257);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(100, 30);
-            this.btnReset.TabIndex = 7;
+            this.btnReset.TabIndex = 9;
             this.btnReset.Text = "&Reset";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.BtnReset_Click);
@@ -303,7 +303,7 @@
             this.btnExit.Location = new System.Drawing.Point(233, 257);
             this.btnExit.Name = "btnExit";
             this.btnExit.Size = new System.Drawing.Size(100, 30);
-            this.btnExit.TabIndex = 8;
+            this.btnExit.TabIndex = 10;
             this.btnExit.Text = "E&xit";
             this.btnExit.UseVisualStyleBackColor = true;
             this.btnExit.Click += new System.EventHandler(this.BtnExit_Click);
@@ -312,7 +312,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(535, 299);
+            this.ClientSize = new System.Drawing.Size(535, 294);
             this.Controls.Add(this.btnExit);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnAdd);
