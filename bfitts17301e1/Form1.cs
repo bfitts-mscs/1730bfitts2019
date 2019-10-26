@@ -25,7 +25,7 @@ namespace bfitts17301e1
         private void Button1_Click(object sender, EventArgs e)
         {
             txtAveragescore.Text = (
-                    (Convert.ToDecimal(txtTestone.Text) + Convert.ToDecimal(txtTesttwo.Text) + Convert.ToDecimal(txtTestthree.Text)) / 3.0m
+                    (Convert.ToDecimal(txtTestone.Text) + Convert.ToDecimal(txtTesttwo.Text) + Convert.ToDecimal(txtTestthree.Text) + Convert.ToDecimal(txtTestfour.Text) + Convert.ToDecimal(txtTestfive.Text) + Convert.ToDecimal(txtTestsix.Text) + Convert.ToDecimal(txtTestseven.Text)) / 7.0m
                     ).ToString("0.00");
         }
 

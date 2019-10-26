@@ -39,6 +39,14 @@
             this.button3 = new System.Windows.Forms.Button();
             this.txtAveragescore = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtTestsix = new System.Windows.Forms.TextBox();
+            this.txtTestfive = new System.Windows.Forms.TextBox();
+            this.txtTestfour = new System.Windows.Forms.TextBox();
+            this.txtTestseven = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -127,7 +135,7 @@
             // 
             // txtAveragescore
             // 
-            this.txtAveragescore.Location = new System.Drawing.Point(103, 135);
+            this.txtAveragescore.Location = new System.Drawing.Point(103, 240);
             this.txtAveragescore.Name = "txtAveragescore";
             this.txtAveragescore.ReadOnly = true;
             this.txtAveragescore.Size = new System.Drawing.Size(66, 20);
@@ -137,17 +145,97 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(47, 138);
+            this.label4.Location = new System.Drawing.Point(47, 243);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(50, 13);
             this.label4.TabIndex = 10;
             this.label4.Text = "Average:";
             // 
+            // txtTestsix
+            // 
+            this.txtTestsix.Location = new System.Drawing.Point(103, 170);
+            this.txtTestsix.Name = "txtTestsix";
+            this.txtTestsix.Size = new System.Drawing.Size(66, 20);
+            this.txtTestsix.TabIndex = 13;
+            this.txtTestsix.Text = "0";
+            this.txtTestsix.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtTestfive
+            // 
+            this.txtTestfive.Location = new System.Drawing.Point(103, 144);
+            this.txtTestfive.Name = "txtTestfive";
+            this.txtTestfive.Size = new System.Drawing.Size(66, 20);
+            this.txtTestfive.TabIndex = 12;
+            this.txtTestfive.Text = "0";
+            this.txtTestfive.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtTestfour
+            // 
+            this.txtTestfour.Location = new System.Drawing.Point(103, 115);
+            this.txtTestfour.Name = "txtTestfour";
+            this.txtTestfour.Size = new System.Drawing.Size(66, 20);
+            this.txtTestfour.TabIndex = 11;
+            this.txtTestfour.Text = "0";
+            this.txtTestfour.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // txtTestseven
+            // 
+            this.txtTestseven.Location = new System.Drawing.Point(103, 196);
+            this.txtTestseven.Name = "txtTestseven";
+            this.txtTestseven.Size = new System.Drawing.Size(66, 20);
+            this.txtTestseven.TabIndex = 14;
+            this.txtTestseven.Text = "0";
+            this.txtTestseven.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(57, 173);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(40, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Test 6:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(57, 147);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(40, 13);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Test 5:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(57, 118);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Test 4:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(57, 199);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(40, 13);
+            this.label8.TabIndex = 18;
+            this.label8.Text = "Test 7:";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(333, 193);
+            this.ClientSize = new System.Drawing.Size(333, 329);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.txtTestseven);
+            this.Controls.Add(this.txtTestsix);
+            this.Controls.Add(this.txtTestfive);
+            this.Controls.Add(this.txtTestfour);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtAveragescore);
             this.Controls.Add(this.button3);
@@ -179,6 +267,14 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txtAveragescore;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtTestsix;
+        private System.Windows.Forms.TextBox txtTestfive;
+        private System.Windows.Forms.TextBox txtTestfour;
+        private System.Windows.Forms.TextBox txtTestseven;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
     }
 }
 
